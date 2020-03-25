@@ -44,7 +44,7 @@ public class InsertSQL {
 			//3. Statement객체 생성을 취한 메소드 호출
 			stmt = con.createStatement();
 			//4. SQL(쿼리문)문 작성
-			String sql = "INSERT INTO member VALUES" + "('test4', '4444', '사길동', sysdate)";
+			String sql = "INSERT INTO member VALUES" + "('test2', '2222', '이길동', sysdate)";
 			
 			//5. 쿼리 실행 및 결과값 반환
 			/*
