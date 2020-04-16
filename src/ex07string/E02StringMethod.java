@@ -170,8 +170,8 @@ public class E02StringMethod {
 		String phoneNumber = "010-1234-5678";
 		String[] phoneArr = phoneNumber.split("-");
 		for(int i=0; i<phoneArr.length ; i++) {
-			System.out.printf("phoneArr[%d]=%s\n",
-					i, phoneArr[i]);
+			System.out.printf("phoneArr[%d]=%s\n", i, phoneArr[i]);
+			
 		}
 		
 		phoneArr = phoneNumber.split("%");
