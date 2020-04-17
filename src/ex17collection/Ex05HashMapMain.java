@@ -26,6 +26,8 @@ public class Ex05HashMapMain {
 		 */
 		System.out.println("name이라는 키값으로 저장된 이전의 값:"+
 					map.put("name", "홍길동"));//null 반환됨 (저장된것이 없으니까)
+		System.out.println("name이라는 키값으로 저장된 이전의 값:"+
+				map.put("name", "홍길동"));//null 반환됨 (저장된것이 없으니까)
 		
 		int number = 20;
 		//map.put("age", number);//에러발생 
